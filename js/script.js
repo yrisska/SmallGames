@@ -2,9 +2,7 @@ var slots = ["ne_nado","cry","fire","meme","pop"];
 var advices = ["It is certain.","It is decidedly so.","Without a doubt.","Yes definitely.","You may rely on it."];
 var counter = 0;
 var userName = "User";
-function loadFunc(){
-    userName = prompt("Whats your name?");
-}
+
 function loadGame(){
     document.getElementById('name').innerHTML = userName;
 }
